@@ -1,0 +1,324 @@
+body {
+font-family: 'Muli','Helvetica Neue',Arial,sans-serif;
+}
+
+p {
+font-family: 'Muli','Helvetica Neue',Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Muli','Helvetica Neue',Arial,sans-serif;
+}
+
+.header {
+	position: fixed;
+	background-color: #fff;
+	height: 120px;
+	width: 100%;
+	color: #85b1dd;
+	text-align: center;
+	font-family: 'Muli','Helvetica Neue',Arial,sans-serif;
+	left: 0;
+	z-index: 2;
+}
+
+#guide1 {
+	position: absolute;
+	background-color: transparent;
+	border-style: dashed;
+	border-width: 3px;
+	border-color: transparent;
+	right: 50%;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+
+}
+
+.firstbox {
+	position: absolute;
+	border-color: rgba(133,177,221,0.8);
+	border-style: solid;
+	background-color: #fff;
+	border-width: 3px;
+	border-radius: 2px;
+	height: 40px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+
+}
+
+.firstbox h3 {
+	margin-top: 5px;
+}
+.topbox {
+	position: absolute;
+	border-color: rgba(133,177,221,0.8);
+	border-style: solid;
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+	border-bottom: none;
+	border-width: 3px;
+	height: 50px;
+	width: 50px;
+	right: 50px;
+	bottom: 56px;
+}
+
+#coverbox {
+	position: absolute;
+	border: none;
+	background-color: #fff;
+	height: 5px;
+	width: 44px;
+	right: 53px;
+	bottom: 34px;
+}
+
+.bottombox {
+	position: absolute;
+	border-color: rgba(133,177,221,0.8);
+	border-style: solid;
+	border-bottom: none;
+	border-top: none;
+	background-color: #fff;
+	border-width: 3px;
+	height: 20px;
+	width: 50px;
+	right: 50px;
+	bottom: 36px;
+}
+
+.
+
+
+.top-buttons {
+	position: absolute;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+	background-position: center;
+}
+
+.hide {
+	visibility: hidden;
+}
+
+.blogo {
+	background: url(logo.svg);
+	background-position: center;
+	background-size: 110%;
+}
+
+#logo {
+	background: url(logo.svg);
+	background-position: center;
+	background-size: 110%;
+	right: 50px;
+	bottom: 55px;
+	border-color: rgba(133,177,221,0.8);
+}
+
+#gears {
+	border-color: rgba(152,221,222,0.8);
+	right: -30px;
+	bottom: 55px;
+	background: url(gears.svg);
+	background-position: center;
+	background-size: 85%;
+}
+
+#heart {
+	border-color: rgba(163,232,177,0.8);
+	right: -110px;
+	bottom: 55px;
+	background: url();
+}
+
+.w {
+	position: absolute;
+	background-color: transparent;
+	color: #fff;
+	text-align: center;
+	top: 122px;
+}
+
+.hea {
+	background-color: rgba(133,177,221,0.8);
+	right: 0;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-family: 'Muli','Helvetica Neue',Arial,sans-serif;
+}
+
+.hea h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.first-p {
+	text-indent: 50px;
+}
+
+p {
+	text-align: justify;
+	color: #222;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+
+  }
+
+.who {
+	position: absolute;
+	width: 100%;
+	height: 210px;
+}
+
+.guide2 {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	right: 50%;
+	border-width: 3px;
+	border-style: dashed;
+	border-color: transparent;
+}
+
+.ct {
+	position: absolute;
+	top: 50px;
+}
+
+.ct2 {
+	position: absolute;
+	top: 130px;
+}
+
+.c {
+	background-color: transparent;
+  	border-color: rgba(133,177,221,0.8);
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+}
+
+  .c1 {
+  	position: absolute;
+  	right: 50px;
+ }
+
+  .c2 {
+  	position: absolute;
+  	right: -30px;
+}
+
+  .c3 {
+  	position: absolute;
+  	right: -110px;
+}
+
+/* CAROUSEL Solo para gears */
+
+.what {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	z-index: 1;
+}
+
+.h {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.box {
+	position: absolute;
+	height: 300px;
+	width: 75%;
+	left: 12.5%;
+	top: 100px;
+	border-style: solid;
+	border-color: rgba(152,221,222,0.8);
+	border-width: 1px;
+	background-color: transparent;
+}
+
+/*Carousel footer*/
+
+.cf {
+	position: absolute;
+	top: 405px;
+	width: 37.5%;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-family: 'Muli','Helvetica Neue',Arial,sans-serif;
+}
+
+.cf h5 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#cf1 {
+	left: 12.5%;
+	background-color: rgba(152,221,222,0.8);
+
+}
+
+#cf2 {
+	right: 12.5%;
+	background-color: rgba(252,198,26,0.8);
+}
+
+
+.cnt {
+position: absolute;
+top: 45%;
+left: 10px;
+}
+
+.rgt {
+position: absolute;
+top: 45%;
+right: -15px;
+}
+
+/* */
+
+
+/* INNER CAROUSEL */
+#i1 {
+	position: absolute;
+	height: 300px;
+	width: 100%;
+	left: 12.5%;
+	top: 100px;
+	z-index: -1;
+}
+
+#i2 {
+	position: absolute;
+	height: 300px;
+	width: 75%;
+	left: 87.5%;
+	top: 100px;
+	z-index: -1;
+}
+
+
